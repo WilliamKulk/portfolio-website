@@ -201,6 +201,10 @@ p{
     margin-top: 90px;
 }
 
+.top_100{
+    margin-top: 100px;
+}
+
 .top_110{
     margin-top: 110px;
 }
@@ -406,7 +410,7 @@ header.type-1 .nav-icon {
     position: relative;
     float: right;
     cursor: pointer;
-    margin-top: 2px;
+    margin-top: 12px;
     display: none;
 }
 
@@ -415,7 +419,7 @@ header.type-1 .nav-icon span {
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #ffffff;
+    background: #000;
     transition: width ease 0.3s;
     -webkit-transition: width ease 0.3s;
 }
@@ -878,7 +882,7 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
 
 }
 .about.type-3 .image {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     background: #f3f3f3;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -895,7 +899,7 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
     box-shadow: 0 0 85px 0 rgba(0,0,0,.14);
     -webkit-box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.28);
     margin-top: -15%;
-    margin-left: calc(15% - 15px);
+    margin-left: calc(13% - 15px);
 }
 
 .about.type-3 .features .service:nth-child(1) i {
@@ -1538,7 +1542,6 @@ footer.type-2 .ftr-widget p{
         background: none;
     }
 
-
 }
 
 
@@ -1611,6 +1614,26 @@ footer.type-2 .ftr-widget p{
         font-size: 24px;
         line-height: 38px;
     }
+
+    .portfolio-main.type-2.hejij {
+      background: url(../images/hejij-1300.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+    .portfolio-main.type-2.beyourselfcoach {
+      background: url(../images/beyourselfcoach-1300.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+    .portfolio-main.type-2.sovidad {
+      background: url(../images/sovidad-1300.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+    .portfolio-main.type-2.kraamzorgplokker {
+      background: url(../images/kraamzorgplokker-1300.png) center top no-repeat;
+      background-size: 100%;
+  }
 
 }
 
@@ -1698,8 +1721,8 @@ footer.type-2 .ftr-widget p{
     }
 
     .portfolio-main.type-2 {
-      background: url(../images/works/single_05.png) bottom center no-repeat;
-      background-size: 210%;
+      background: url(../images/hejij-800.png) center top no-repeat;
+      background-size: 100%;
   }
 
   .port-title-three {
@@ -1836,6 +1859,26 @@ header.type-1 nav ul li.hassub .submenu {
     font-size: 18px;
     padding: 31px;
 }
+
+  .portfolio-main.type-2.hejij {
+      background: url(../images/hejij-800.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+  .portfolio-main.type-2.beyourselfcoach {
+      background: url(../images/beyourselfcoach-800.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+  .portfolio-main.type-2.sovidad {
+      background: url(../images/sovidad-800.png) center top no-repeat;
+      background-size: 100%;
+  }
+
+  .portfolio-main.type-2.kraamzorgplokker {
+      background: url(../images/kraamzorgplokker-800.png) center top no-repeat;
+      background-size: 100%;
+  }
 
 }
 
