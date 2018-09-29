@@ -1,4 +1,4 @@
-/* --------------------------------- */
+ /* --------------------------------- */
 /* Css Styles                        */
 /* --------------------------------- */
 
@@ -20,19 +20,19 @@
 /*------------------------ 1 Body and Core Css ------------------------*/	
 
 .logo-text-alt {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   font-weight: 600;
   color: #000000;
 }
 
 .logo-text {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   font-weight: 600;
   color: #ffffff;
 }
 
 .logo-text-fixed {
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   font-weight: 600;
   color: #000000;
 }
@@ -587,11 +587,12 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
   	display: table-cell;
   	vertical-align: middle;
     text-align: center;
+    padding-top: 30px;
 }
 
 .home .home-content .title{
     color: #fff;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 800;
     line-height: 123px;
 }
@@ -618,7 +619,7 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
 }
 
 .down-icon {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100px;
     height: 100px;
     display: inline-flex;
@@ -878,10 +879,7 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
 
 /* About Type 3 */
 
-.about.type-3{
-
-}
-.about.type-3 .image {
+/* .about.type-3 .image {
     padding-bottom: 50px;
     background: #f3f3f3;
     border-radius: 4px;
@@ -889,6 +887,8 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
     -moz-border-radius: 4px;
      display: inline-table;
 }
+
+*/
 
 .about.type-3 .image img{
     width: 100%;
@@ -1271,7 +1271,7 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
 }
 
 .portfolio-main.type-2.kraamzorgplokker{    
-    background: url(../images/beyourselfcoach-1900.jpg) center top;
+    background: url(../images/kraamzorgplokker-1900.jpg) center top;
     background-size: cover;
     max-width: 100%;
     position: relative;
@@ -1538,10 +1538,6 @@ footer.type-2 .ftr-widget p{
         margin:0;
     }
 
-    .about.type-3 .image{
-        background: none;
-    }
-
 }
 
 
@@ -1557,10 +1553,6 @@ footer.type-2 .ftr-widget p{
 
     .about.type-1.bottom_30{
         margin-bottom: 0;
-    }
-
-    .about.type-3 .image{
-        background: none;
     }
 
     .about.type-3 .section-title.bottom_30.top_30{
